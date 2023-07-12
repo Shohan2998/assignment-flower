@@ -82,14 +82,45 @@ font-weight: 400;
     margin-top: 180px;
 }
 
-.image{
+.featured-flower h3{
+    color: #272727;
+   text-align: center;
+
+font-size: 40px;
+
+font-weight: 800;
+}
+
+.featured-flower p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+height: 80px;
+font-size: 25px;
+font-weight: 400;
+line-height: 30px;
+}
+
+
+.image-container{
+    
+    display: flex;
+    margin: auto 250px;
+    align-content: center;
+}
+.same{
     width: 464px;
 height: 538px;
 border-radius: 300px 300px 0px 0px;
+margin: auto;
+
 }
 #i1{
     
+
 background: rgba(167, 33, 98, 0.15);
+
+
+
 }
 #i2{
 
@@ -100,12 +131,22 @@ background: rgba(5, 151, 160, 0.15);
     
 background: rgba(71, 125, 17, 0.15);
 }
+#pic1{
+    width: 300px;
+    height: 420px;
+    padding: 110px 78px 0px 78px;
+}
+#pic2{
+    height: 360px;
+    width: 360px;
+    padding: 110px 45px 60px 50px;
+}
+#pic3{
+    width: 310px;
+    height: 470px;
+    padding: 65px 75px 0px 75px;
+}
 
-.featured-flower h3{
-    color: #272727;
-   text-align: center;
-
-font-size: 40px;
-
-font-weight: 800;
+h4{
+    text-align: center;
 }
