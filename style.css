@@ -52,7 +52,7 @@ height: 250px;
 width: 634px;
 height: 90px;
 color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
+font-size: 24px;
 font-weight: 400;
 
 
@@ -70,7 +70,11 @@ font-weight: 400;
     font-weight: 700;
     outline: none;
     border: none; 
+   
 
+}
+#btn1{
+    margin-top: 35px;
 }
     
 /*main section style*/
@@ -97,6 +101,7 @@ height: 80px;
 font-size: 24px;
 font-weight: 400;
 line-height: 30px;
+
 }
 
 
@@ -216,5 +221,71 @@ width: 600px;
 .disc-img{
     width: 315px;
     height: 400px;
-    padding: 100px 350px ;
+    padding: 150px 350px ;
+}
+
+
+
+.insta-section{
+    margin: 150px 250px;
+  
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.insta-section h3{
+    color: #272727;
+    text-align: center;
+ 
+ font-size: 40px;
+ 
+ font-weight: 800;
+}
+
+.insta-section p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    
+    }
+    
+
+.insta-container{
+    display: flex;
+
+}
+.insta{
+    width: 330px;
+height: 380px;
+margin: auto;
+}
+
+
+.deal{
+    width: 1450px;
+    height: 400px;
+    background-image: url("FlowerAsset/Rectangle\ 9.png");
+    margin: 150px 250px;
+}
+
+.deal h3{
+    color: #272727;
+    text-align: center;
+ 
+ font-size: 40px;
+ 
+ font-weight: 800;
+}
+
+.deal p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
 }
