@@ -360,3 +360,7 @@ margin: auto;
 .samepic{
     border-radius: 20px 20px;
 }
+a{
+    text-decoration: none;
+    margin: auto;
+}
